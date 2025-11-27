@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Bank + UNICEF Child Welfare Data Analysis</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Child Welfare Data</div>
+            <ul class="nav-links">
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#mortality">Mortality</a></li>
+                <li><a href="#nutrition">Nutrition</a></li>
+                <li><a href="#poverty">Poverty</a></li>
+                <li><a href="#methodology">Methodology</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Global Child Welfare Analysis</h1>
+            <p>Exploring the intersection of economic indicators and child welfare outcomes across 217 countries (1960-2023)</p>
+            <div class="stats-overview">
+                <div class="stat-card">
+                    <span class="stat-number">217</span>
+                    <span class="stat-label">Countries</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">64</span>
+                    <span class="stat-label">Years</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">54</span>
+                    <span class="stat-label">Indicators</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">14K+</span>
+                    <span class="stat-label">Data Points</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="overview">
+            <h2>Data Overview</h2>
+            <p>This analysis combines economic data from the World Bank with child welfare indicators from UNICEF to explore relationships between national economic conditions and child outcomes.</p>
+
+            <div class="data-sources">
+                <div class="source-card">
+                    <h3>World Bank</h3>
+                    <ul>
+                        <li>GDP and GDP per capita</li>
+                        <li>Public debt</li>
+                        <li>Tax revenue</li>
+                        <li>Government expenses</li>
+                        <li>Inflation rates</li>
+                        <li>Poverty headcount ratios</li>
+                        <li>Gini index</li>
+                    </ul>
+                </div>
+                <div class="source-card">
+                    <h3>UNICEF</h3>
+                    <ul>
+                        <li>Under-5 mortality rate</li>
+                        <li>Infant mortality rate</li>
+                        <li>Neonatal mortality rate</li>
+                        <li>Stunting prevalence</li>
+                        <li>Wasting prevalence</li>
+                        <li>Low birth weight</li>
+                        <li>Child poverty measures</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="mortality">
+            <h2>Child Mortality Trends</h2>
+            <div class="chart-container">
+                <canvas id="mortalityChart"></canvas>
+            </div>
+            <div class="chart-description">
+                <p>Global child mortality rates have declined significantly over the past decades, but disparities remain between regions and income groups.</p>
+            </div>
+        </section>
+
+        <section id="nutrition">
+            <h2>Nutrition Indicators</h2>
+            <div class="chart-container">
+                <canvas id="nutritionChart"></canvas>
+            </div>
+            <div class="chart-description">
+                <p>Malnutrition indicators including stunting, wasting, and underweight prevalence vary significantly across countries and are closely linked to economic conditions.</p>
+            </div>
+        </section>
+
+        <section id="poverty">
+            <h2>Poverty and Child Welfare</h2>
+            <div class="chart-container">
+                <canvas id="povertyChart"></canvas>
+            </div>
+            <div class="chart-description">
+                <p>The relationship between poverty rates and child welfare outcomes demonstrates the importance of economic development in improving children's lives.</p>
+            </div>
+        </section>
+
+        <section id="methodology">
+            <h2>Methodology</h2>
+            <div class="methodology-content">
+                <h3>Data Collection</h3>
+                <p>Data was collected from the World Bank API and UNICEF data warehouse, covering 217 countries from 1960 to 2023.</p>
+
+                <h3>Indicators</h3>
+                <p>The dataset includes 54 indicators across economic, mortality, nutrition, and poverty categories.</p>
+
+                <h3>Limitations</h3>
+                <p>Data availability varies by country and year. Not all indicators have complete coverage across all countries and time periods.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Data sources: World Bank Open Data, UNICEF Data Warehouse</p>
+        <p>Analysis conducted using Python and visualized with Chart.js</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
