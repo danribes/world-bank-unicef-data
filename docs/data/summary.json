@@ -1,0 +1,750 @@
+{
+  "summary": {
+    "total_countries": 217,
+    "year_range": {
+      "start": 1960,
+      "end": 2024
+    },
+    "total_rows": 14105,
+    "total_columns": 54,
+    "data_coverage": {
+      "under5_mortality": 11619,
+      "infant_mortality": 11588,
+      "stunting": 1123,
+      "gdp_per_capita": 11486
+    }
+  },
+  "mortality": {
+    "labels": [
+      "1990",
+      "1991",
+      "1992",
+      "1993",
+      "1994",
+      "1995",
+      "1996",
+      "1997",
+      "1998",
+      "1999",
+      "2000",
+      "2001",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "datasets": [
+      {
+        "label": "Under-5 Mortality Rate",
+        "data": [
+          72.1,
+          71.8,
+          70.8,
+          68.1,
+          66.8,
+          65.0,
+          63.4,
+          61.7,
+          61.0,
+          57.9,
+          55.3,
+          53.2,
+          51.0,
+          48.6,
+          46.8,
+          44.8,
+          42.8,
+          41.0,
+          39.5,
+          39.6,
+          36.8,
+          35.9,
+          33.9,
+          32.7,
+          32.4,
+          31.4,
+          30.7,
+          30.2,
+          28.4,
+          28.2,
+          26.7,
+          26.2,
+          26.8,
+          24.7,
+          NaN
+        ],
+        "borderColor": "#ea4335",
+        "backgroundColor": "#ea433520",
+        "fill": true,
+        "tension": 0.4
+      },
+      {
+        "label": "Infant Mortality Rate",
+        "data": [
+          49.2,
+          49.0,
+          48.2,
+          46.4,
+          45.8,
+          44.5,
+          43.5,
+          42.3,
+          41.7,
+          39.9,
+          38.2,
+          36.9,
+          35.5,
+          34.0,
+          32.8,
+          31.5,
+          30.3,
+          29.2,
+          28.3,
+          28.1,
+          26.6,
+          26.2,
+          24.9,
+          24.1,
+          23.8,
+          23.2,
+          22.8,
+          22.4,
+          21.3,
+          21.0,
+          20.2,
+          19.8,
+          19.9,
+          18.8,
+          NaN
+        ],
+        "borderColor": "#1a73e8",
+        "backgroundColor": "#1a73e820",
+        "fill": true,
+        "tension": 0.4
+      },
+      {
+        "label": "Neonatal Mortality Rate",
+        "data": [
+          24.6,
+          24.2,
+          23.7,
+          23.3,
+          22.8,
+          22.5,
+          22.0,
+          21.5,
+          21.0,
+          20.4,
+          19.9,
+          19.3,
+          18.8,
+          18.2,
+          17.7,
+          17.2,
+          16.8,
+          16.4,
+          16.0,
+          15.6,
+          15.2,
+          14.9,
+          14.5,
+          14.2,
+          13.9,
+          13.7,
+          13.4,
+          13.2,
+          12.9,
+          12.7,
+          12.5,
+          12.2,
+          12.0,
+          11.7,
+          NaN
+        ],
+        "borderColor": "#34a853",
+        "backgroundColor": "#34a85320",
+        "fill": true,
+        "tension": 0.4
+      }
+    ]
+  },
+  "nutrition": {
+    "labels": [
+      "Sub-Saharan Africa",
+      "South Asia",
+      "East Asia & Pacific",
+      "Latin America",
+      "Middle East & North Africa",
+      "Europe & Central Asia"
+    ],
+    "datasets": [
+      {
+        "label": "Stunting (%)",
+        "data": [
+          26.2,
+          26.4,
+          16.5,
+          14.0,
+          14.7,
+          14.2
+        ],
+        "backgroundColor": "#ea4335cc"
+      },
+      {
+        "label": "Wasting (%)",
+        "data": [
+          6.8,
+          10.6,
+          5.6,
+          1.7,
+          2.3,
+          4.2
+        ],
+        "backgroundColor": "#fbbc04cc"
+      },
+      {
+        "label": "Underweight (%)",
+        "data": [
+          16.3,
+          22.3,
+          10.4,
+          4.0,
+          4.4,
+          3.2
+        ],
+        "backgroundColor": "#9334e6cc"
+      }
+    ]
+  },
+  "poverty": {
+    "datasets": [
+      {
+        "label": "GDP per Capita vs Under-5 Mortality",
+        "data": [
+          {
+            "x": 31591.0,
+            "y": 2.6,
+            "country": "Czechia"
+          },
+          {
+            "x": 27386.0,
+            "y": 3.2,
+            "country": "Portugal"
+          },
+          {
+            "x": 4876.0,
+            "y": 20.6,
+            "country": "Indonesia"
+          },
+          {
+            "x": 2941.0,
+            "y": 13.9,
+            "country": "Sao Tome and Principe"
+          },
+          {
+            "x": 5839.0,
+            "y": 13.6,
+            "country": "Mongolia"
+          },
+          {
+            "x": 32610.0,
+            "y": 2.2,
+            "country": "Slovenia"
+          },
+          {
+            "x": 7897.0,
+            "y": 2.4,
+            "country": "Belarus"
+          },
+          {
+            "x": 1394.0,
+            "y": 77.9,
+            "country": "Benin"
+          },
+          {
+            "x": 54690.0,
+            "y": 3.6,
+            "country": "Belgium"
+          },
+          {
+            "x": 56034.0,
+            "y": 3.1,
+            "country": "Austria"
+          },
+          {
+            "x": 5965.0,
+            "y": 22.6,
+            "country": "Iraq"
+          },
+          {
+            "x": 256581.0,
+            "y": 2.7,
+            "country": "Monaco"
+          },
+          {
+            "x": 11308.0,
+            "y": 18.3,
+            "country": "Grenada"
+          },
+          {
+            "x": 23401.0,
+            "y": 3.7,
+            "country": "Greece"
+          },
+          {
+            "x": 597.0,
+            "y": 104.0,
+            "country": "Somalia, Fed. Rep."
+          },
+          {
+            "x": 1737.0,
+            "y": 67.2,
+            "country": "Cameroon"
+          },
+          {
+            "x": 1698.0,
+            "y": 38.5,
+            "country": "Senegal"
+          },
+          {
+            "x": 965.0,
+            "y": 69.3,
+            "country": "Guinea-Bissau"
+          },
+          {
+            "x": 6800.0,
+            "y": 14.7,
+            "country": "Moldova"
+          },
+          {
+            "x": 1555.0,
+            "y": 95.0,
+            "country": "Guinea"
+          },
+          {
+            "x": 3799.0,
+            "y": 6.1,
+            "country": "Sri Lanka"
+          },
+          {
+            "x": 3804.0,
+            "y": 26.9,
+            "country": "Philippines"
+          },
+          {
+            "x": 4188.0,
+            "y": 40.7,
+            "country": "Namibia"
+          },
+          {
+            "x": 27786.0,
+            "y": 3.4,
+            "country": "Lithuania"
+          },
+          {
+            "x": 5758.0,
+            "y": 21.4,
+            "country": "Guatemala"
+          },
+          {
+            "x": 3771.0,
+            "y": 16.6,
+            "country": "Morocco"
+          },
+          {
+            "x": 32891.0,
+            "y": 9.4,
+            "country": "Brunei Darussalam"
+          },
+          {
+            "x": 22600.0,
+            "y": 16.3,
+            "country": "St. Kitts and Nevis"
+          },
+          {
+            "x": 8071.0,
+            "y": 33.2,
+            "country": "Gabon"
+          },
+          {
+            "x": 4330.0,
+            "y": 15.7,
+            "country": "Samoa"
+          },
+          {
+            "x": 12077.0,
+            "y": 2.6,
+            "country": "Montenegro"
+          },
+          {
+            "x": 1178.0,
+            "y": 27.3,
+            "country": "Tajikistan"
+          },
+          {
+            "x": 3839.0,
+            "y": 23.1,
+            "country": "Bhutan"
+          },
+          {
+            "x": 34076.0,
+            "y": 8.8,
+            "country": "Kuwait"
+          },
+          {
+            "x": 986.0,
+            "y": 58.3,
+            "country": "Togo"
+          },
+          {
+            "x": 21495.0,
+            "y": 9.3,
+            "country": "Antigua and Barbuda"
+          },
+          {
+            "x": 6023.0,
+            "y": 34.7,
+            "country": "South Africa"
+          },
+          {
+            "x": 54265.0,
+            "y": 1.5,
+            "country": "San Marino"
+          },
+          {
+            "x": 847.0,
+            "y": 20.6,
+            "country": "Syrian Arab Republic"
+          },
+          {
+            "x": 6840.0,
+            "y": 19.3,
+            "country": "Jamaica"
+          },
+          {
+            "x": 13826.0,
+            "y": 12.5,
+            "country": "Mexico"
+          },
+          {
+            "x": 5494.0,
+            "y": 16.2,
+            "country": "Suriname"
+          },
+          {
+            "x": 12951.0,
+            "y": 6.2,
+            "country": "China"
+          },
+          {
+            "x": 22145.0,
+            "y": 4.4,
+            "country": "Poland"
+          },
+          {
+            "x": 21865.0,
+            "y": 4.6,
+            "country": "Croatia"
+          },
+          {
+            "x": 82305.0,
+            "y": 6.5,
+            "country": "United States"
+          },
+          {
+            "x": 602.0,
+            "y": 38.3,
+            "country": "Malawi"
+          },
+          {
+            "x": 30133.0,
+            "y": 2.1,
+            "country": "Estonia"
+          },
+          {
+            "x": 2530.0,
+            "y": 27.7,
+            "country": "India"
+          },
+          {
+            "x": 8624.0,
+            "y": 3.3,
+            "country": "North Macedonia"
+          },
+          {
+            "x": 2430.0,
+            "y": 22.9,
+            "country": "Cambodia"
+          },
+          {
+            "x": 4864.0,
+            "y": 9.9,
+            "country": "Tonga"
+          },
+          {
+            "x": 3742.0,
+            "y": 45.0,
+            "country": "Eswatini"
+          },
+          {
+            "x": 3457.0,
+            "y": 17.5,
+            "country": "Egypt, Arab Rep."
+          },
+          {
+            "x": 55567.0,
+            "y": 2.5,
+            "country": "Sweden"
+          },
+          {
+            "x": 633.0,
+            "y": 73.2,
+            "country": "Congo, Dem. Rep."
+          },
+          {
+            "x": 54220.0,
+            "y": 5.1,
+            "country": "Canada"
+          },
+          {
+            "x": 1080.0,
+            "y": 236.6,
+            "country": "South Sudan"
+          },
+          {
+            "x": 29290.0,
+            "y": 8.6,
+            "country": "Bahrain"
+          },
+          {
+            "x": 2555.0,
+            "y": 67.1,
+            "country": "Cote d'Ivoire"
+          },
+          {
+            "x": 1224.0,
+            "y": 38.9,
+            "country": "Tanzania"
+          },
+          {
+            "x": 634.0,
+            "y": 47.0,
+            "country": "Yemen, Rep."
+          },
+          {
+            "x": 2879.0,
+            "y": 13.3,
+            "country": "Uzbekistan"
+          },
+          {
+            "x": 6173.0,
+            "y": 30.8,
+            "country": "Libya"
+          },
+          {
+            "x": 883.0,
+            "y": 77.3,
+            "country": "Burkina Faso"
+          },
+          {
+            "x": 2609.0,
+            "y": 13.4,
+            "country": "Nicaragua"
+          },
+          {
+            "x": 12879.0,
+            "y": 9.6,
+            "country": "Kazakhstan"
+          },
+          {
+            "x": 916.0,
+            "y": 58.9,
+            "country": "Lesotho"
+          },
+          {
+            "x": 5364.0,
+            "y": 22.0,
+            "country": "Algeria"
+          },
+          {
+            "x": 68454.0,
+            "y": 3.4,
+            "country": "Denmark"
+          },
+          {
+            "x": 509.0,
+            "y": 64.8,
+            "country": "Madagascar"
+          },
+          {
+            "x": 22676.0,
+            "y": 3.0,
+            "country": "Latvia"
+          },
+          {
+            "x": 20972.0,
+            "y": 10.4,
+            "country": "Oman"
+          },
+          {
+            "x": 7001.0,
+            "y": 12.0,
+            "country": "Colombia"
+          },
+          {
+            "x": 49041.0,
+            "y": 5.0,
+            "country": "United Arab Emirates"
+          },
+          {
+            "x": 7826.0,
+            "y": 39.6,
+            "country": "Botswana"
+          },
+          {
+            "x": 23019.0,
+            "y": 6.7,
+            "country": "Uruguay"
+          },
+          {
+            "x": 1233.0,
+            "y": 38.7,
+            "country": "Myanmar"
+          },
+          {
+            "x": 87497.0,
+            "y": 2.4,
+            "country": "Norway"
+          },
+          {
+            "x": 38232.0,
+            "y": 12.7,
+            "country": "Bahamas, The"
+          },
+          {
+            "x": 12754.0,
+            "y": 8.9,
+            "country": "Nauru"
+          },
+          {
+            "x": 2076.0,
+            "y": 20.6,
+            "country": "Solomon Islands"
+          },
+          {
+            "x": 14187.0,
+            "y": 9.6,
+            "country": "Argentina"
+          },
+          {
+            "x": 192.0,
+            "y": 49.2,
+            "country": "Burundi"
+          },
+          {
+            "x": 1036.0,
+            "y": 91.3,
+            "country": "Mali"
+          },
+          {
+            "x": 2310.0,
+            "y": 64.0,
+            "country": "Angola"
+          },
+          {
+            "x": 496.0,
+            "y": 92.2,
+            "country": "Central African Republic"
+          },
+          {
+            "x": 638.0,
+            "y": 114.8,
+            "country": "Niger"
+          },
+          {
+            "x": 18404.0,
+            "y": 6.6,
+            "country": "Romania"
+          },
+          {
+            "x": 48655.0,
+            "y": 4.7,
+            "country": "New Zealand"
+          },
+          {
+            "x": 80196.0,
+            "y": 6.0,
+            "country": "Qatar"
+          },
+          {
+            "x": 7133.0,
+            "y": 18.6,
+            "country": "Azerbaijan"
+          },
+          {
+            "x": 8284.0,
+            "y": 9.2,
+            "country": "Georgia"
+          },
+          {
+            "x": 799.0,
+            "y": 72.9,
+            "country": "Liberia"
+          },
+          {
+            "x": 14159.0,
+            "y": 4.5,
+            "country": "Russian Federation"
+          },
+          {
+            "x": 414.0,
+            "y": 55.5,
+            "country": "Afghanistan"
+          },
+          {
+            "x": 18639.0,
+            "y": 19.1,
+            "country": "Trinidad and Tobago"
+          },
+          {
+            "x": 12282.0,
+            "y": 5.2,
+            "country": "Serbia"
+          },
+          {
+            "x": 20474.0,
+            "y": 25.7,
+            "country": "Guyana"
+          },
+          {
+            "x": 4323.0,
+            "y": 20.0,
+            "country": "Viet Nam"
+          }
+        ],
+        "backgroundColor": "#1cabe280",
+        "borderColor": "#1cabe2",
+        "pointRadius": 6
+      }
+    ]
+  }
+}
