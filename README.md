@@ -39,10 +39,44 @@ The main dataset is `world_bank_gdp_data_with_poverty.xlsx` containing 54 column
 ### UNICEF Child Poverty Indicators
 - 27 child deprivation and poverty indicators
 
-## Scripts
+## Data Pipeline
 
-- `extract_unicef_data.py` - Script to fetch UNICEF data and merge with World Bank data
-- `add_poverty_data.py` - Script to add poverty indicators to the dataset
+The data is collected and enriched through the following pipeline:
+
+1. **`get_world_bank_countries.py`** - Fetch 260+ countries from World Bank API
+2. **`collect_gdp_data.py`** - Collect 70 years of GDP data (1955-2025)
+3. **`add_public_debt_data.py`** - Add public debt metrics
+4. **`add_fiscal_indicators.py`** - Add tax revenue, government expenses, fiscal balance, education spending
+5. **`add_debt_ppp_icer.py`** - Calculate incremental cost-effectiveness ratio
+6. **`convert_to_billions.py`** - Scale GDP values to billions for readability
+7. **`add_poverty_data.py`** - Add poverty headcount ratios and Gini index
+8. **`extract_unicef_data.py`** - Fetch and merge UNICEF mortality, nutrition, and child poverty data
+
+### Intermediate Data Files
+
+| File | Description |
+|------|-------------|
+| `world_bank_countries.csv` | Country directory (260+ countries) |
+| `world_bank_gdp_data_70years.csv` | Base GDP data |
+| `world_bank_gdp_data_with_icer.csv` | With ICER calculations |
+| `world_bank_gdp_data_billions.csv` | Enriched, scaled to billions |
+| `world_bank_gdp_data_billions.xlsx` | Excel version of above |
+| `world_bank_gdp_data_with_poverty.xlsx` | Final dataset with all indicators |
+
+## MCP Server
+
+The `unicef-mcp-server/` directory contains a Node.js MCP (Model Context Protocol) server for querying UNICEF data in real-time via the SDMX API.
+
+### Available Tools
+- `list_dataflows` - List available UNICEF dataflows
+- `get_indicators` - Get indicators for a dataflow
+- `get_child_poverty_data` - Query child poverty by country/years
+- `get_child_mortality_data` - Query mortality by country/years
+- `get_nutrition_data` - Query nutrition by country/years
+- `get_indicator_for_country` - Query specific indicator from any dataflow
+- `search_indicators` - Keyword search across indicators
+
+See [WORLD_BANK_MCP_SETUP.md](WORLD_BANK_MCP_SETUP.md) for setup instructions.
 
 ## Coverage
 

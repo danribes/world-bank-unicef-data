@@ -5,12 +5,20 @@ __pycache__/
 *.so
 .Python
 venv/
+.venv/
 ENV/
+
+# Node
+node_modules/
+
+# Data (JSON duplicates of CSV - too large)
+*.json
+!package.json
+!package-lock.json
 
 # Temporary files
 *.tmp
 *.temp
-nutrition_data.csv
 
 # OS files
 .DS_Store
@@ -21,3 +29,6 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+
+# Environment
+.env
